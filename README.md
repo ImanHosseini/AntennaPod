@@ -1,5 +1,6 @@
 # WHAT IS THIS?
-\[Iman \]:
+\[Iman \]: 
+
 I am no android dev, I wanted to auto-skip music sections in podcasts I follow based on the spectrum of the audio. Again, I am no android dev & with absolutely ZERO consideration for design or any good practice I just wanted to try this & so this fork was made in an afternoon. It adds an AudioProcessor (which is basically just the sonic processor with added code) and then shows analysis output in the app. It is supposed to change to blue if it detects music, and the detection was based on this idea: https://www.sciencedirect.com/science/article/pii/S101836391830850X , it does not work well in general, but for my purposes it's usable. (specifically, the numbers are tuned for BChannel podcast)
 
 \[Iman out\]
